@@ -1,0 +1,27 @@
+{
+  "name": "fp_back",
+  "version": "1.0.0",
+  "description": "* setup packages   * `npm init -y`   * `add .gitignore`   * `npm i -D jest eslint supertest nodemon`   * `npm i express mongoose dotenv morgan superagent`",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "morgan": "^1.9.1",
+    "superagent": "^5.1.0"
+  }
+}
