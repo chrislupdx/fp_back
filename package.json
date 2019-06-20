@@ -4,9 +4,10 @@
   "description": "* setup packages   * `npm init -y`   * `add .gitignore`   * `npm i -D jest eslint supertest nodemon`   * `npm i express mongoose dotenv morgan superagent`",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --runInBand",
+    "test": "jest --runInBand --verbose",
     "test:watch": "npm run test -- --watch",
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
