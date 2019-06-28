@@ -19,6 +19,7 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "chance": "^1.0.18",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^8.0.0",
